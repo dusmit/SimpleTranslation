@@ -1,0 +1,6 @@
+module Pods_SimpleTranslation {
+  umbrella header "Pods-SimpleTranslation-umbrella.h"
+
+  export *
+  module * { export * }
+}

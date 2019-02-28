@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6911662A2213F6A200C60456 /* STClipboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 691166292213F6A200C60456 /* STClipboard.m */; };
+		69F025EA2212906A00E5EC5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F025E92212906A00E5EC5D /* AppDelegate.m */; };
+		69F025EF2212906B00E5EC5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69F025EE2212906B00E5EC5D /* Assets.xcassets */; };
+		69F025F22212906B00E5EC5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69F025F02212906B00E5EC5D /* Main.storyboard */; };
+		69F025F52212906B00E5EC5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F025F42212906B00E5EC5D /* main.m */; };
+		69F025FE2212912D00E5EC5D /* STAppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F025FD2212912D00E5EC5D /* STAppConfig.m */; };
+		69F026022212925500E5EC5D /* STPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F026002212925500E5EC5D /* STPopoverViewController.m */; };
+		69F026032212925500E5EC5D /* STPopoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69F026012212925500E5EC5D /* STPopoverViewController.xib */; };
+		69F026072212930600E5EC5D /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F026062212930500E5EC5D /* NSString+Extension.m */; };
+		69F0260B2212935C00E5EC5D /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F0260A2212935C00E5EC5D /* ServiceManagement.framework */; };
+		69F0260F2212977200E5EC5D /* STNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F0260E2212977200E5EC5D /* STNetworkingManager.m */; };
+		69F026172212ACE800E5EC5D /* STAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F026152212ACE800E5EC5D /* STAboutViewController.m */; };
+		69F026182212ACE800E5EC5D /* STAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69F026162212ACE800E5EC5D /* STAboutViewController.xib */; };
+		865B7A790EABA71D19D3EA9D /* libPods-SimpleTranslation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 591071A44050F3BD02052877 /* libPods-SimpleTranslation.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		591071A44050F3BD02052877 /* libPods-SimpleTranslation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimpleTranslation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		691166282213F6A200C60456 /* STClipboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STClipboard.h; sourceTree = "<group>"; };
+		691166292213F6A200C60456 /* STClipboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STClipboard.m; sourceTree = "<group>"; };
+		69F025E52212906A00E5EC5D /* 简译.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "简译.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69F025E82212906A00E5EC5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		69F025E92212906A00E5EC5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		69F025EE2212906B00E5EC5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69F025F12212906B00E5EC5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69F025F32212906B00E5EC5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69F025F42212906B00E5EC5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69F025F62212906B00E5EC5D /* SimpleTranslation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimpleTranslation.entitlements; sourceTree = "<group>"; };
+		69F025FC2212912D00E5EC5D /* STAppConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STAppConfig.h; sourceTree = "<group>"; };
+		69F025FD2212912D00E5EC5D /* STAppConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STAppConfig.m; sourceTree = "<group>"; };
+		69F025FF2212925500E5EC5D /* STPopoverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STPopoverViewController.h; sourceTree = "<group>"; };
+		69F026002212925500E5EC5D /* STPopoverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STPopoverViewController.m; sourceTree = "<group>"; };
+		69F026012212925500E5EC5D /* STPopoverViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = STPopoverViewController.xib; sourceTree = "<group>"; };
+		69F026052212930500E5EC5D /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		69F026062212930500E5EC5D /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		69F0260A2212935C00E5EC5D /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		69F0260D2212977200E5EC5D /* STNetworkingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STNetworkingManager.h; sourceTree = "<group>"; };
+		69F0260E2212977200E5EC5D /* STNetworkingManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STNetworkingManager.m; sourceTree = "<group>"; };
+		69F02610221297CC00E5EC5D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		69F0261222129D2200E5EC5D /* STDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STDefinition.h; sourceTree = "<group>"; };
+		69F026142212ACE800E5EC5D /* STAboutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STAboutViewController.h; sourceTree = "<group>"; };
+		69F026152212ACE800E5EC5D /* STAboutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STAboutViewController.m; sourceTree = "<group>"; };
+		69F026162212ACE800E5EC5D /* STAboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = STAboutViewController.xib; sourceTree = "<group>"; };
+		848E45C89DDAAAD800FEB253 /* Pods-SimpleTranslation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTranslation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleTranslation/Pods-SimpleTranslation.debug.xcconfig"; sourceTree = "<group>"; };
+		F2DF5A26073C2E634708771F /* Pods-SimpleTranslation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTranslation.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleTranslation/Pods-SimpleTranslation.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69F025E22212906A00E5EC5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F0260B2212935C00E5EC5D /* ServiceManagement.framework in Frameworks */,
+				865B7A790EABA71D19D3EA9D /* libPods-SimpleTranslation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B48F184F977A1336CFCEBAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				848E45C89DDAAAD800FEB253 /* Pods-SimpleTranslation.debug.xcconfig */,
+				F2DF5A26073C2E634708771F /* Pods-SimpleTranslation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		69F025DC2212906A00E5EC5D = {
+			isa = PBXGroup;
+			children = (
+				69F025E72212906A00E5EC5D /* SimpleTranslation */,
+				69F025E62212906A00E5EC5D /* Products */,
+				69F026092212935C00E5EC5D /* Frameworks */,
+				3B48F184F977A1336CFCEBAC /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		69F025E62212906A00E5EC5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69F025E52212906A00E5EC5D /* 简译.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69F025E72212906A00E5EC5D /* SimpleTranslation */ = {
+			isa = PBXGroup;
+			children = (
+				69F025E82212906A00E5EC5D /* AppDelegate.h */,
+				69F025E92212906A00E5EC5D /* AppDelegate.m */,
+				69F025FF2212925500E5EC5D /* STPopoverViewController.h */,
+				69F026002212925500E5EC5D /* STPopoverViewController.m */,
+				69F026012212925500E5EC5D /* STPopoverViewController.xib */,
+				69F026142212ACE800E5EC5D /* STAboutViewController.h */,
+				69F026152212ACE800E5EC5D /* STAboutViewController.m */,
+				69F026162212ACE800E5EC5D /* STAboutViewController.xib */,
+				69F0261122129CE400E5EC5D /* Configure */,
+				69F026042212930500E5EC5D /* Extension */,
+				69F0260C221293DE00E5EC5D /* NetworkingManager */,
+				69F026082212930B00E5EC5D /* Supporting Files */,
+			);
+			path = SimpleTranslation;
+			sourceTree = "<group>";
+		};
+		69F026042212930500E5EC5D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				69F026052212930500E5EC5D /* NSString+Extension.h */,
+				69F026062212930500E5EC5D /* NSString+Extension.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		69F026082212930B00E5EC5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69F025EE2212906B00E5EC5D /* Assets.xcassets */,
+				69F025F02212906B00E5EC5D /* Main.storyboard */,
+				69F025F32212906B00E5EC5D /* Info.plist */,
+				69F02610221297CC00E5EC5D /* PrefixHeader.pch */,
+				69F025F42212906B00E5EC5D /* main.m */,
+				69F025F62212906B00E5EC5D /* SimpleTranslation.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69F026092212935C00E5EC5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69F0260A2212935C00E5EC5D /* ServiceManagement.framework */,
+				591071A44050F3BD02052877 /* libPods-SimpleTranslation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69F0260C221293DE00E5EC5D /* NetworkingManager */ = {
+			isa = PBXGroup;
+			children = (
+				69F0260D2212977200E5EC5D /* STNetworkingManager.h */,
+				69F0260E2212977200E5EC5D /* STNetworkingManager.m */,
+			);
+			path = NetworkingManager;
+			sourceTree = "<group>";
+		};
+		69F0261122129CE400E5EC5D /* Configure */ = {
+			isa = PBXGroup;
+			children = (
+				69F0261222129D2200E5EC5D /* STDefinition.h */,
+				69F025FC2212912D00E5EC5D /* STAppConfig.h */,
+				69F025FD2212912D00E5EC5D /* STAppConfig.m */,
+				691166282213F6A200C60456 /* STClipboard.h */,
+				691166292213F6A200C60456 /* STClipboard.m */,
+			);
+			path = Configure;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69F025E42212906A00E5EC5D /* SimpleTranslation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69F025F92212906B00E5EC5D /* Build configuration list for PBXNativeTarget "SimpleTranslation" */;
+			buildPhases = (
+				12C67513D18E2127BBE665EB /* [CP] Check Pods Manifest.lock */,
+				69F025E12212906A00E5EC5D /* Sources */,
+				69F025E22212906A00E5EC5D /* Frameworks */,
+				69F025E32212906A00E5EC5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleTranslation;
+			productName = SimpleTranslation;
+			productReference = 69F025E52212906A00E5EC5D /* 简译.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69F025DD2212906A00E5EC5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ST;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = dusmit;
+				TargetAttributes = {
+					69F025E42212906A00E5EC5D = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 69F025E02212906A00E5EC5D /* Build configuration list for PBXProject "SimpleTranslation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69F025DC2212906A00E5EC5D;
+			productRefGroup = 69F025E62212906A00E5EC5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69F025E42212906A00E5EC5D /* SimpleTranslation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69F025E32212906A00E5EC5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F025EF2212906B00E5EC5D /* Assets.xcassets in Resources */,
+				69F026032212925500E5EC5D /* STPopoverViewController.xib in Resources */,
+				69F025F22212906B00E5EC5D /* Main.storyboard in Resources */,
+				69F026182212ACE800E5EC5D /* STAboutViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12C67513D18E2127BBE665EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleTranslation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69F025E12212906A00E5EC5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F026072212930600E5EC5D /* NSString+Extension.m in Sources */,
+				69F025F52212906B00E5EC5D /* main.m in Sources */,
+				69F026022212925500E5EC5D /* STPopoverViewController.m in Sources */,
+				6911662A2213F6A200C60456 /* STClipboard.m in Sources */,
+				69F026172212ACE800E5EC5D /* STAboutViewController.m in Sources */,
+				69F025FE2212912D00E5EC5D /* STAppConfig.m in Sources */,
+				69F0260F2212977200E5EC5D /* STNetworkingManager.m in Sources */,
+				69F025EA2212906A00E5EC5D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		69F025F02212906B00E5EC5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69F025F12212906B00E5EC5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69F025F72212906B00E5EC5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		69F025F82212906B00E5EC5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		69F025FA2212906B00E5EC5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 848E45C89DDAAAD800FEB253 /* Pods-SimpleTranslation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SimpleTranslation/SimpleTranslation.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SimpleTranslation/PrefixHeader.pch";
+				INFOPLIST_FILE = SimpleTranslation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dusmit.SimpleTranslation;
+				PRODUCT_NAME = "简译";
+				SWIFT_OBJC_BRIDGING_HEADER = "SimpleTranslation/Configure/SimpleTranslation-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		69F025FB2212906B00E5EC5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2DF5A26073C2E634708771F /* Pods-SimpleTranslation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SimpleTranslation/SimpleTranslation.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SimpleTranslation/PrefixHeader.pch";
+				INFOPLIST_FILE = SimpleTranslation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dusmit.SimpleTranslation;
+				PRODUCT_NAME = "简译";
+				SWIFT_OBJC_BRIDGING_HEADER = "SimpleTranslation/Configure/SimpleTranslation-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69F025E02212906A00E5EC5D /* Build configuration list for PBXProject "SimpleTranslation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F025F72212906B00E5EC5D /* Debug */,
+				69F025F82212906B00E5EC5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69F025F92212906B00E5EC5D /* Build configuration list for PBXNativeTarget "SimpleTranslation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F025FA2212906B00E5EC5D /* Debug */,
+				69F025FB2212906B00E5EC5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69F025DD2212906A00E5EC5D /* Project object */;
+}
